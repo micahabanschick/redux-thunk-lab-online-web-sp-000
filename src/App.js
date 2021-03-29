@@ -9,7 +9,7 @@ class App extends Component {
     console.log(this.props)
     this.props.fetchCats()
   }
-  
+
   render() {
     console.log(this.props.catPics)
     return (
